@@ -9,6 +9,10 @@ The Project was done entirely in <b>Python 3</b> and its various libraries<br>
 
 ---
 
+For instructions on how to run GUI refer <a href="https://github.com/DarthRoco/AlloyML/blob/main/AlloyML/README.md">here</a></li>
+
+---
+
 The Project had the following main phases:
 
 
