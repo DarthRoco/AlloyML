@@ -1,0 +1,92 @@
+from collections import OrderedDict
+
+#This script stores all constant values obtained from dataset.
+#This is important if we want to recover actual value since model outputs normalised values
+
+
+def minconstant():
+    cont={'Furnace temperature': 1086.0,
+ 'Exit temperature': 610.0,
+ 'Annealing temperature': 301.0,
+ 'Thickness': 1.5,
+ 'Width': 715.0,
+ 'S': 0.0001,
+ 'Cu': 0.0047,
+ 'Ni': 0.0023,
+ 'Cr': 0.0001,
+ 'Mo': 0.0001,
+ 'Nb': 0.0001,
+ 'Al(Total)': 0.0043,
+ 'Al(Acid soluble)': 0.0031,
+ 'Sn': 0.0001,
+ 'As': 0.0016,
+ 'Ca': 0.0001,
+ 'Pb': 0.0001,
+ 'C(Eq1)': 0.0129,
+ 'C(Eq2)': 0.0078,
+ 'V': 0.0,
+ 'Ti': 0.0,
+ 'Sb': 0.0,
+ 'Zr': 0.0,
+ 'N': 0.0,
+ 'B': 0.0,
+ 'O': 0.0}
+    return OrderedDict(cont)
+
+def maxconstant():
+    cont={'Furnace temperature': 1281.0,
+ 'Exit temperature': 954.0,
+ 'Annealing temperature': 771.0,
+ 'Thickness': 19.0,
+ 'Width': 1630.0,
+ 'S': 0.036,
+ 'Cu': 0.4403,
+ 'Ni': 0.4829,
+ 'Cr': 1.1523,
+ 'Mo': 0.5143,
+ 'Nb': 0.0645,
+ 'Al(Total)': 0.3075,
+ 'Al(Acid soluble)': 0.3067,
+ 'Sn': 0.0214,
+ 'As': 0.0251,
+ 'Ca': 0.0135,
+ 'Pb': 0.0136,
+ 'C(Eq1)': 0.9219,
+ 'C(Eq2)': 0.7548,
+ 'V': 0.1999,
+ 'Ti': 0.113,
+ 'Sb': 0.1019,
+ 'Zr': 0.357,
+ 'N': 0.122,
+ 'B': 0.0049,
+ 'O': 0.4}
+    return OrderedDict(cont)
+
+def meanconstant():
+    cont={'Furnace temperature': 0.5888607155063822,
+ 'Exit temperature': 0.7312285021240228,
+ 'Annealing temperature': 0.6217113440818169,
+ 'Thickness': 0.13617452627476972,
+ 'Width': 0.5005783549388217,
+ 'S': 0.18229659083302455,
+ 'Cu': 0.056605092669284665,
+ 'Ni': 0.016199718449844806,
+ 'Cr': 0.054411908605794715,
+ 'Mo': 0.008049134851092534,
+ 'Nb': 0.10893970075174708,
+ 'Al(Total)': 0.10795360032028511,
+ 'Al(Acid soluble)': 0.10258761595076751,
+ 'Sn': 0.0683778637330965,
+ 'As': 0.053466567226321045,
+ 'Ca': 0.05033869315905586,
+ 'Pb': 0.023798767894898376,
+ 'C(Eq1)': 0.2032405974836402,
+ 'C(Eq2)': 0.15607936320820326,
+ 'V': 0.004767107596739389,
+ 'Ti': 0.0988234075994518,
+ 'Sb': 0.011772864139038714,
+ 'Zr': 0.005057658413735015,
+ 'N': 0.022979014150965208,
+ 'B': 0.08191020304773958,
+ 'O': 0.00186751527817359}
+    return OrderedDict(cont)

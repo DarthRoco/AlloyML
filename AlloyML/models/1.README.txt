@@ -1,0 +1,19 @@
+The dataset was taken from the appendix of the research paper
+https://www.sciencedirect.com/science/article/abs/pii/S0927025618308437?via%3Dihub
+
+The data was downloaded under the CC BY 4.0 licence
+
+The model parameters are as follows:
+
+
+Tensile Strenght:(r2 score=0.955)
+2 layer,Normalised
+35,5
+
+Yield Strenght:(r2 score=0.928)
+3 layer,Normalised
+30,10,10
+
+Elongation Limit:(r2 score=0.77)
+3 layer,Normalised
+30,10,10 
